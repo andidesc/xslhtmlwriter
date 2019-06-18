@@ -11,11 +11,7 @@ pipeline {
                 sh 'date' 
             }
         }
-        stage('Deploy') { 
-            steps {
-                sh 'whoami'
-            }
-        }
+
     }
 }
 
