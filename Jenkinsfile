@@ -3,9 +3,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                withMaven(maven : 'maven_1_2_1'){
-                    sh  'mvn clean compile'
-                }
+                sh 'whoami'
             }
         }
         stage('Test') { 
