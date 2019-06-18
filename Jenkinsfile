@@ -13,7 +13,7 @@ pipeline{
                     sh 'date'
                 }
             }
-        stage('Deploay'){
+        stage('Deploy'){
             steps{
                     sh 'whoami'
                 }
