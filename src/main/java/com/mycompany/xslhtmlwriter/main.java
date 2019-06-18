@@ -48,7 +48,7 @@ public class main {
         File myFile = new File("/Users/Andi/excelsnake/090419/Preisliste_020419_172739.xlsx");
 
         // Finds the workbook instance for XLSX file 
-        FileInputStream fis = new FileInputStream(myFile);
+        //FileInputStream fis = new FileInputStream(myFile);
 
         XSSFWorkbook myWorkBook = new XSSFWorkbook(fis);
 
