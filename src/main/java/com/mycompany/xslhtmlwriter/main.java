@@ -48,13 +48,14 @@ public class main {
         File myFile = new File("/Users/Andi/excelsnake/090419/Preisliste_020419_172739.xlsx");
 
         // Finds the workbook instance for XLSX file 
-        //FileInputStream fis = new FileInputStream(myFile);
+        FileInputStream fis = new FileInputStream(myFile);
 
         XSSFWorkbook myWorkBook = new XSSFWorkbook(fis);
 
         // Return first sheet from the XLSX workbook 
         XSSFSheet mySheet = myWorkBook.getSheetAt(0);
-//HELLO
+        
+        
         // Get iterator to all the rows in current sheet 
         Iterator<Row> rowIterator = mySheet.iterator(); // Traversing over each row of XLSX file 
 
