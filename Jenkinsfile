@@ -18,11 +18,6 @@ pipeline {
                 sh 'whoami'
             }
         }
-        stage('Decoy') { 
-            steps {
-                sh 'whoami'
-            }
-        }
     }
 }
 
