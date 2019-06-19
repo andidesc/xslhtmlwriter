@@ -53,7 +53,7 @@ public class main {
         XSSFWorkbook myWorkBook = new XSSFWorkbook(fis);
 
         // Return first sheet from the XLSX workbook 
-        XSSFSheet mySheet = myWorkBook.getSheetAt(0);
+        //XSSFSheet mySheet = myWorkBook.getSheetAt(0);
         
         
         // Get iterator to all the rows in current sheet 
